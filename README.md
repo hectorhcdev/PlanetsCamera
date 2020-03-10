@@ -13,7 +13,7 @@ En esta cuarta práctica se ha creado una aplicación mediante **processing3** d
 
 ## Demo
 
-![](demo.gif)
+![](Demo.gif)
 
 En la demo se puede apreciar el la rotación de cada planeta alrededor del Sol que se encuentra en el centro del sistema, además de que algunos plantes poseen lunas que orbitan alrededor de ellos.
 
