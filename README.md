@@ -42,6 +42,8 @@ Todas las interrupciones manejadas en este programa han sido mediante   teclado,
 |  SPACE  | Subir la cámara verticalmente                        |
 | CONTROL | Bajar la cámara verticalmente                        |
 |  RATÓN  | Apuntar hacia donde se desea mover/apuntar la cámara |
+|    1    | Cambiar a cámara móvil				 |
+|    2    | Cambiar a cámara fija				 |
 
 ## Bibliografía
 

@@ -19,8 +19,8 @@ void setup(){
   s=loadShape("objeto/Robot_Eye.obj");
   s.scale(10);
   noStroke();
-  bg=loadImage("./textures/back.png");
-  bg.resize(width,height);
+  //bg=loadImage("./textures/back.png");
+  //bg.resize(width,height);
   sun= new Astro(100,0.1,1.0,0,"./textures/sun.jpg");
   Astro planet= new Astro(30,0.2,10,200,"textures/planet1.png");
   Astro planet1= new Astro(20,-30,-10,0.45,"textures/planet2.jpg");
@@ -59,15 +59,15 @@ void setup(){
     robot= new Robot();
   } catch(Throwable e){
   }
-  robot.mouseMove(width/2,height/2);
-  bg.resize(width,height);
+  //robot.mouseMove(width/2,height/2);
+  //bg.resize(width,height);
 }
 
 void draw(){
   
   float angle=0;
   float angle2=0;
-    background(bg);
+    background(0);
     pushMatrix();
     translate(width/2,height/2,-700);
     //camera(vX,vY,vZ,mouseX+width/2,mouseY+height/2,-700+vZ,0,1,0);
@@ -198,18 +198,6 @@ void keyPressed(){
     cameras[1]=true;
     cameras[2]=false;
     cameras[3]=false;
-  }
-  if(key =='3'){
-    cameras[0]=false;
-    cameras[1]=false;
-    cameras[2]=true;
-    cameras[3]=false;
-  }
-  if(key =='4'){
-    cameras[0]=false;
-    cameras[1]=false;
-    cameras[2]=false;
-    cameras[3]=true;
   }
   //if(keyCode==ENTER){
   //  fichero.finish();

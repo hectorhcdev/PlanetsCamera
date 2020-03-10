@@ -46,7 +46,6 @@ class Astro{
       this.rotationV=0;
     }
     for(Astro sat:this.satelites){
-      //println("pintando satelite");
       sat.printAstro();
     }
     popMatrix();
